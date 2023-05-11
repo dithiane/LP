@@ -1,0 +1,34 @@
+:root {
+    --light: #FFFFFF;
+    --gray: #828282;
+    --text: #0D4D14;
+    --buttonText: #6CB981;
+    --buttonShadow: #6cb98121;
+    --darkBackground: #324B29;
+    --formField: #9FDEA9;
+    --emptyBackground: rgba(0, 0, 0, 0.5);
+    --font-family: 'Poppins', sans-serif;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --text-xlg: 144px;
+    --text-lg: 60px;
+    --text-xmd: 42px;
+    --text-md: 32px; 
+    --text-sm: 27px;
+    --text-xsm: 18px;
+    --text-xxsm: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font: var(--font-regular) var(--text-md) var(--font-family);
+    color: var(--light);
+}

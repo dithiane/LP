@@ -1,0 +1,113 @@
+@media(max-width:1040px){
+    .hero_title {
+        font-size: var(--text-lg);
+        line-height: 74px;
+    }
+    
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .line {
+        display: block
+    }
+
+    .menu {
+        left: -100%;
+    }
+
+    .menu.active {
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        position: fixed;
+        top: 45px;
+        z-index: 10;
+    }
+
+    .menu.active a {
+        color: var(--text)
+    }
+
+    .services_offers {
+        flex-flow: column;
+    }
+
+    .about_history_points {
+        flex-flow: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .about_history {
+        height: 100%;
+    }
+
+    .about_history p {
+        width: 100%;
+    }
+
+    .btn {
+        margin: 20px
+    }
+
+    .testymonials_items {
+        padding: 0;
+    }
+
+    .testymonials_card_body {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px){
+    input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .title {
+        font-size: var(--text-md)
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .logo_container {
+        padding-top: 10px;
+    }
+
+    .logo_description_title{
+        font-size: var(--text-md)
+    }
+
+    .logo_description_subtitle{
+        font-size: var(--text-normal);
+        letter-spacing: 2px;
+        top: -13px;
+    }
+
+    .logo{
+        padding: 7px;
+    }
+
+    .contact_items {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: var(--text-xsm);
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+}
