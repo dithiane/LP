@@ -1,4 +1,15 @@
 @media(max-width:1040px){
+
+    .logo img {
+        width: 75px;
+    }
+
+    .logo_container {
+        background-color: var(--transparent);
+        position: fixed;
+        top: 0;
+    }
+
     .hero_title {
         font-size: var(--text-lg);
         line-height: 74px;
@@ -6,9 +17,23 @@
     
     .hamburger {
         display: block;
-        position: absolute;
+        position: fixed;
         right: 10px;
         top: 10px;
+        z-index: 1;
+    }
+
+    .hamburger.active .line:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .line:nth-child(1){
+        transform:translateY(12px)rotate(45deg);
+    }
+
+    .hamburger.active .line:nth-child(3)
+    {
+        transform:translateY(-8px)rotate(-45deg);
     }
 
     .line {
@@ -16,21 +41,16 @@
     }
 
     .menu {
-        left: -100%;
+        top: -200px;
+        transition: top 0.3s;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
     }
 
     .menu.active {
-        left: 0;
-        flex-direction: column;
-        align-items: center;
-        background: white;
-        position: fixed;
-        top: 45px;
+        top: 160px;
         z-index: 10;
-    }
-
-    .menu.active a {
-        color: var(--text)
     }
 
     .services_offers {
@@ -67,6 +87,10 @@
 }
 
 @media(max-width:600px){
+    .menu.active { 
+        top: 92px;
+    }
+
     input {
         width: 100%;
         margin: 10px 0;
@@ -96,6 +120,10 @@
 
     .logo{
         padding: 7px;
+    }
+
+    .logo img {
+        width: 48px;
     }
 
     .contact_items {

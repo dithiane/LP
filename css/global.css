@@ -4,8 +4,10 @@
     --text: #0D4D14;
     --buttonText: #6CB981;
     --buttonShadow: #6cb98121;
+    --transparent: #424f41e1;
     --darkBackground: #324B29;
     --formField: #9FDEA9;
+    --active: #00ff92;
     --emptyBackground: rgba(0, 0, 0, 0.5);
     --font-family: 'Poppins', sans-serif;
     --font-regular: 400;
