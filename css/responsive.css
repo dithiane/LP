@@ -14,7 +14,7 @@
         font-size: var(--text-lg);
         line-height: 74px;
     }
-    
+
     .hamburger {
         display: block;
         position: fixed;
@@ -97,7 +97,8 @@
     }
 
     .title {
-        font-size: var(--text-md)
+        font-size: var(--text-md);
+        padding: 20px;
     }
 
     section {
@@ -105,7 +106,7 @@
     }
 
     .logo_container {
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .logo_description_title{
@@ -135,7 +136,26 @@
         font-size: var(--text-xsm);
     }
 
-    .card {
-        margin: 20px 0;
+    .services_offers {
+        margin: 0;
     }
+
+    .card img {
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:300px){
+    .logo img {
+        width: 30px;
+    }
+
+    .logo_description_subtitle {
+        font-size: var(--text-xxsm);
+    }
+
+    .logo_description_title {
+        font-size: var(--text-sm);
+    }
+
 }

@@ -81,6 +81,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 145px;
+    font-size: var(--text-xsm);
 }
 
 .hero {
@@ -316,8 +317,16 @@ form textarea:focus{
     padding: 10px;
     height: 40px;
 }
+
 form textarea {
     border: none;
     height: 30px;
 }
 
+.goToTop {
+    position: fixed;
+    cursor: pointer;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}
