@@ -86,12 +86,21 @@ const handleResize = (e) => {
     checkHamburger()
 }
 
+// Scroll to the section associated with clicked menu item
+const handleMenuClick = (e) => {
+    e.preventDefault()
+    const target = document.getElementById(`${e.target.innerText.toLowerCase()}`)
+    target.scrollIntoView({ behavior: 'smooth' });
+}
+
 // Add "scroll" listener to thepage
 window.addEventListener("scroll", handleScroll);
 // Add "click" listener to the back to top button
 goToTop.addEventListener('click', handleGoToTop);
 // Add "resize" listener to the page
 window.addEventListener('resize', handleResize);
+// Add "click" listener to the menu
+menu.addEventListener('click', handleMenuClick);
 
 createMenu()
 checkHamburger()
