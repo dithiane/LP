@@ -1,4 +1,5 @@
 /* Main styles */
+
 @import url(global.css);
 @import url(animation.css);
 
@@ -140,7 +141,7 @@ section {
     color: var(--light)
 }
 
-.logo_description{
+.logo_description {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
@@ -206,7 +207,8 @@ section {
     padding: 10px;
 }
 
-.card p, h1 {
+.card p,
+h1 {
     padding: 20px 20px 0;
 }
 
@@ -219,7 +221,7 @@ section {
 }
 
 .about_history {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../media/1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../media/1.png");
     height: 540px;
     display: flex;
     flex-direction: column;
@@ -227,6 +229,7 @@ section {
     align-items: center;
     width: 100%;
 }
+
 .about_history p {
     font-size: var(--text-xxsm);
     width: 300px;
@@ -279,7 +282,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:1
+    flex: 1
 }
 
 .social {
@@ -295,7 +298,7 @@ section {
 form {
     display: flex;
     flex-direction: column;
-    flex:1;
+    flex: 1;
 }
 
 form input {
@@ -311,7 +314,7 @@ form textarea {
     margin: 10px;
 }
 
-form textarea:focus{
+form textarea:focus {
     outline: none !important;
     border: 1px solid var(--formField);
 }

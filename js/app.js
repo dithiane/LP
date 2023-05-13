@@ -77,7 +77,7 @@ const checkHamburger = () => {
     display = getStyleProperty(hamburger, "display")
     if (display === "none") return
     menu.addEventListener('click', toggleMenu)
-    hamburger.addEventListener("click",  toggleMenu);
+    hamburger.addEventListener("click", toggleMenu);
 }
 
 // If "resize" event was triggered check for visibility of the hamburger menu

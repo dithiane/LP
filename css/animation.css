@@ -1,4 +1,5 @@
 /* Keyframes */
+
 @keyframes wiggle {
     0%, 7% {
       transform: rotateZ(0);
