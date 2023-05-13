@@ -1,4 +1,6 @@
+/* Main styles */
 @import url(global.css);
+@import url(animation.css);
 
 .container {
     display: grid;
@@ -19,6 +21,7 @@ nav {
     position: fixed;
     display: flex;
     width: 100%;
+    z-index: 1;
 }
 
 .menu {
@@ -32,7 +35,7 @@ nav {
     font-weight: var(--font-bold);
     font-size: var(--text-xsm);
     color: var(--light);
-    background-color:var(--transparent);
+    background-color: var(--darkBackground);
 }
 
 .menu-link {
@@ -184,7 +187,9 @@ section {
     width: 160px;
     height: 55px;
     border-radius: 35px;
-    color: var(--buttonText)
+    color: var(--buttonText);
+
+    animation: wiggle 2s linear infinite;
 }
 
 .card {
@@ -329,4 +334,6 @@ form textarea {
     right: 0px;
     bottom: 0px;
     display: block;
+
+    animation: wiggle 2s linear infinite;
 }

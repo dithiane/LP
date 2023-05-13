@@ -1,3 +1,5 @@
+/* Media queries styles */
+
 @media(max-width:1040px){
 
     .logo img {
@@ -5,9 +7,10 @@
     }
 
     .logo_container {
-        background-color: var(--transparent);
+        background-color: var(--darkBackground);
         position: fixed;
         top: 0;
+        z-index: 1;
     }
 
     .hero_title {
@@ -20,7 +23,7 @@
         position: fixed;
         right: 10px;
         top: 10px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .hamburger.active .line:nth-child(2){
@@ -50,7 +53,6 @@
 
     .menu.active {
         top: 160px;
-        z-index: 10;
     }
 
     .services_offers {
