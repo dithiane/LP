@@ -221,6 +221,7 @@ h1 {
 }
 
 .about_history {
+    margin-top: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../media/1.png");
     height: 540px;
     display: flex;

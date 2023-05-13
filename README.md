@@ -11,4 +11,6 @@ This landing page is a template for the Lawn Yard Maintenance businesses and con
 
 # Development
 
+-   [project demo](https://dithiane.github.io/LP/)
+
 -   [Google Fonts : "Poppins" ](https://fonts.google.com/specimen/Poppins)
